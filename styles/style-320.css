@@ -1,6 +1,8 @@
 body {
     font: 400 15px / 18px 'Montserrat';
     color: #000;
+    width: 425px;
+    border: 5px solid black
 }
 
 .big {
@@ -11,6 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     background: url(/images/bg-head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
 }
 
@@ -46,7 +50,8 @@ body {
 }
 
 .play {
-    max-width: 80%;
+    max-width: 65%;
+    width: auto;
     margin: 2%;
     align-self: flex-end;
 }
@@ -66,7 +71,7 @@ button {
     display: flex;
     max-width: 44.375%;
     height: 39px;
-    padding: 0 6%;
+    padding: 0 2%;
     text-align: left;
     text-transform: uppercase;
     color: #fff;
@@ -77,6 +82,11 @@ button {
     box-shadow: 0 10px 10px #0a0e34;
     justify-content: center;
     align-items: center;
+}
+
+button span {
+    width: 130px;
+    margin: auto;
 }
 
 button span span {
@@ -213,10 +223,12 @@ h3.growth-violet:before {
     position: relative;
 }
 
+.photo-container img {
+    width: 100%;
+}
+
 .points-text .points-text-block h3 {
     color: #e7e7e7;
-    position: relative;
-    right: 60px
 }
 
 
