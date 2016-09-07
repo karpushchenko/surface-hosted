@@ -1,7 +1,7 @@
 body {
     font: 400 15px / 18px 'Montserrat';
     color: #000;
-    }
+}
 
 .big {
     text-transform: uppercase;
@@ -57,7 +57,7 @@ body {
 
 .buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 button {
@@ -204,8 +204,9 @@ h3.connection:before {
 h3.growth:before {
     content: '03';
 }
+
 h3.growth-violet:before {
-    color:#8765dd;
+    color: #8765dd;
 }
 
 .points.active .photo-container {
@@ -315,18 +316,20 @@ h3.growth-violet:before {
     top: 0;
     left: 147px;
 }
-.fline1-768{
+
+.fline1-768 {
     position: absolute;
-    left:-10%;
+    left: -10%;
     transform: scale(0.5);
     display: none;
-        
 }
-.fline2-768{
+
+.fline2-768 {
     position: absolute;
     left: 45%;
     display: none
 }
+
 .social {
     height: 50px;
     margin-top: 127px;

@@ -1,7 +1,6 @@
 body {
     font: 400 18px / 28px 'Montserrat';
     color: #000;
-    border-right: 1px solid black;
 }
 
 .big {
@@ -86,8 +85,6 @@ body {
     justify-content: space-between;
 }
 
-
-
 .buttons {
     position: relative;
     top: 130px;
@@ -97,7 +94,7 @@ body {
 }
 
 button {
-    font:300 0.8em 'Montserrat';
+    font: 300 0.8em 'Montserrat';
     line-height: 1.5em;
     display: flex;
     max-width: 44.375%;
@@ -113,28 +110,33 @@ button {
     box-shadow: 0 10px 10px #0a0e34;
     justify-content: center;
     align-items: center;
-    
 }
-.apple{
+
+.apple {
     background-image: url(/images/icon-apple-768.png);
     background-repeat: no-repeat;
     background-position: 12% 37%;
 }
-.img-apple{
+
+.img-apple {
     display: none;
 }
-.google{
+
+.google {
     background-image: url(/images/icon-google-768.png);
     background-repeat: no-repeat;
     background-position: 15% 50%;
 }
-.img-google{
+
+.img-google {
     display: none;
 }
-button span{
-    width:auto;
+
+button span {
+    width: auto;
     margin: auto
 }
+
 button span span {
     font-weight: 600;
 }
@@ -145,8 +147,8 @@ button img {
 
 .sports {
     position: relative;
-    bottom:130px;
-    width:100%;
+    bottom: 130px;
+    width: 100%;
     display: flex;
     margin: 100px;
     flex-wrap: nowrap;
@@ -155,7 +157,6 @@ button img {
 
 .sports span {
     font: 300 1em 'Montserrat';
-    
     color: #9071ea;
 }
 
@@ -228,14 +229,12 @@ h2 {
     position: absolute;
     top: -120px;
     left: 380px;
-    
 }
 
 .cross-full-2 {
     position: absolute;
     top: -110px;
     left: 400px;
-    
 }
 
 .line-full-1 {
@@ -409,14 +408,12 @@ h3 {
     position: absolute;
     top: -60px;
     left: 85px;
-    
 }
 
 .cross-full-4 {
     position: absolute;
     top: -70px;
     left: 70px;
-    
 }
 
 h3.connection:before {
@@ -426,6 +423,7 @@ h3.connection:before {
 h3.growth:before {
     content: '03';
 }
+
 h3.growth-violet:before {
     color: #8765dd;
 }
@@ -434,7 +432,6 @@ h3.growth-violet:before {
     position: relative;
     display: none;
 }
-
 
 .photo-container-full {
     width: 100%;
@@ -467,8 +464,6 @@ h3.growth-violet:before {
     flex-direction: column;
 }
 
-
-
 .points-photo {
     position: relative;
     z-index: 99;
@@ -487,7 +482,7 @@ h3.growth-violet:before {
     position: absolute;
     bottom: 0%;
     left: 4%;
-    transform:translateY(25px);
+    transform: translateY(25px);
 }
 
 .points-photo span {
@@ -501,6 +496,7 @@ h3.growth-violet:before {
     width: 100%;
     padding-left: 20px;
 }
+
 .points-text h3 {
     font: 700 12vh 'Montserrat';
     color: #e7e7e7;
@@ -510,11 +506,11 @@ h3.growth-violet:before {
 .points-text p {
     width: 400px;
     margin-top: -60px;
-    
-    
 }
-.points-text img{
-    margin-bottom: 40px;;
+
+.points-text img {
+    margin-bottom: 40px;
+    ;
 }
 
 .footer {
@@ -525,7 +521,7 @@ h3.growth-violet:before {
 }
 
 .footer-top {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -552,31 +548,31 @@ h3.growth-violet:before {
     position: relative;
     display: flex;
     flex-direction: column;
-    height:314px;
+    height: 314px;
     text-align: center;
     justify-content: center;
 }
 
 .fline1 {
     position: absolute;
-    
     top: 30px;
-    display:none;
+    display: none;
 }
 
 .fline2 {
     position: absolute;
     top: 0;
     left: 147px;
-    display:none;
+    display: none;
 }
-.fline1-768{
+
+.fline1-768 {
     position: absolute;
-    left:-10%;
+    left: -10%;
     transform: scale(0.5)
-        
 }
-.fline2-768{
+
+.fline2-768 {
     position: absolute;
     left: 45%;
 }
