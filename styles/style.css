@@ -109,16 +109,24 @@ button {
     box-shadow: 0 10px 10px #0a0e34;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease
 }
+
 button span {
-    width:140px;
+    width: 140px;
 }
+
 button span span {
     font-weight: 600;
 }
 
 button img {
     margin: 0 5%;
+}
+
+button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .sports {
@@ -160,6 +168,19 @@ h2 {
     right: 50%;
 }
 
+.slider-photo-full-athlete:hover .cross-full-1,
+.slider-photo-full-athlete:hover .cross-full-2 {
+    transform: rotate(540deg);
+}
+
+.slider-photo-full-athlete:hover .line-full-1 {
+    transform: translate(-25px, -10px) scale(2);
+}
+
+.slider-photo-full-athlete:hover .footballer-full {
+    transform: translate(25px, 0px) scale(0.7);
+}
+
 .ath-cross-1 {
     position: absolute;
     top: 5%;
@@ -191,6 +212,27 @@ h2 {
     left: 50%;
 }
 
+.slider-photo-full-player:hover .cross-full-3,
+.slider-photo-full-player:hover .cross-full-5 {
+    transform: rotate(595deg);
+}
+
+.slider-photo-full-player:hover .cross-full-4 {
+    transform: rotate(-595deg);
+}
+
+.slider-photo-full-player:hover .line-full-2 {
+    transform: translate(-35px, 20px) scale(0.7);
+}
+
+.slider-photo-full-player:hover .line-full-3 {
+    transform: translate(35px, -20px) scale(0.7);
+}
+
+.slider-photo-full-player:hover .bplayer-full {
+    transform: translate(25px, -20px) scale(0.7);
+}
+
 .footballer-full {
     position: relative;
     z-index: 1;
@@ -198,6 +240,7 @@ h2 {
     left: 15%;
     width: auto;
     transform: scale(.7);
+    transition: 1.5s ease;
 }
 
 .cross-full-1 {
@@ -205,6 +248,7 @@ h2 {
     top: -30px;
     left: 230px;
     transform: scale(.6);
+    transition: 1s ease;
 }
 
 .cross-full-2 {
@@ -212,6 +256,7 @@ h2 {
     top: -20px;
     left: 245px;
     transform: scale(.6);
+    transition: 2s ease;
 }
 
 .line-full-1 {
@@ -221,6 +266,7 @@ h2 {
     left: 290px;
     width: 30%;
     transform: scale(2);
+    transition: 2s ease;
 }
 
 .noslider-text {
@@ -357,6 +403,7 @@ h3 {
     bottom: 270px;
     width: auto;
     transform: scale(.7);
+    transition: 2s ease;
 }
 
 .line-full-2 {
@@ -365,6 +412,7 @@ h3 {
     top: 80px;
     left: -30px;
     transform: scale(.7);
+    transition: 2s ease;
 }
 
 .line-full-3 {
@@ -372,6 +420,7 @@ h3 {
     top: -150px;
     left: 250px;
     transform: scale(.7);
+    transition: 2s ease;
 }
 
 .cross-full-5 {
@@ -379,6 +428,7 @@ h3 {
     top: 120px;
     left: 380px;
     transform: scale(.6);
+    transition: 2s ease;
 }
 
 .cross-full-3 {
@@ -386,6 +436,7 @@ h3 {
     top: -60px;
     left: 85px;
     transform: scale(.6);
+    transition: 2s ease;
 }
 
 .cross-full-4 {
@@ -393,6 +444,7 @@ h3 {
     top: -70px;
     left: 70px;
     transform: scale(.6);
+    transition: 1s ease;
 }
 
 h3.connection:before {
@@ -473,6 +525,7 @@ h3.growth-violet:before {
     bottom: 50%;
     left: 100%;
     transform: translate(-50%);
+    transition: 1s ease;
 }
 
 .points-photo span {
@@ -500,6 +553,11 @@ h3.growth-violet:before {
     font: 700 6vh 'Montserrat';
     margin-top: 0;
     color: #e7e7e7;
+    transition: 0.2s ease-in;
+}
+
+.points-text:hover h3 {
+    color: #c1c1c1;
 }
 
 .find h3 {
@@ -540,7 +598,7 @@ h3.growth-violet:before {
 }
 
 .show {
-    font: 700 15px Montserrat;
+    font: 700 15px "Montserrat";
     z-index: 2;
     color: #9b8ec1;
 }
